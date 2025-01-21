@@ -10,6 +10,7 @@
 .logo img {
     width: 50x;
     height: 50px;
+    margin-right: 5px;
 }
 .display-flex {
     display: flex;
