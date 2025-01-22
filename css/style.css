@@ -69,6 +69,14 @@
     line-height: 30px;
     letter-spacing: 0%;
 }
+.ma {
+    margin-top: 15px;
+    color: rgb(149, 178, 38);
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+}
 .navbar {
     justify-content: space-between;
 }
@@ -400,7 +408,7 @@
     margin-top: 30px;
     width: 50px;
     height: 50px;
-
+    cursor: pointer;
 }
 
 @media screen and (max-width: 576px) {
@@ -417,9 +425,15 @@
     }
     .cardbox {
         margin-bottom: 20px;
+        width: 100%;
     }
     .cardbox1 {
         margin-bottom: 20px;
+        width: 100%;
+    }
+    .cardbox2 {
+        margin-bottom: 20px;
+        width: 100%;
     }
     .icon img {
         display: none;
@@ -570,8 +584,6 @@
 .ccontainer {
     display: flex;
     justify-content: space-between;
-    /* margin-right: 140px;
-    margin-left: 140px; */
 }
 .ccc {
     margin-right: 50px;
