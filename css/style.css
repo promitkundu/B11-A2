@@ -16,8 +16,7 @@
     font-size: 25px;
     font-weight: 70;
     line-height: 30px;
-    letter-spacing: 0%;
-    
+    letter-spacing: 0%; 
 }
 .logo img {
     width: 50px;
@@ -45,7 +44,6 @@
     font-weight: 500;
     line-height: 30px;
     letter-spacing: 0%;
-    
 }
 .c2 {
     color: skyblue;
@@ -91,15 +89,25 @@
     letter-spacing: 0%;
     text-align: left;
 }
+.bars img{
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    display: none;
+    visibility: hidden;
+}
 @media screen and (max-width: 576px) {
-    .nav-links {
+    .nav-links, .btn {
         display: none;
     }
-    .btn {
-        display: none;   
+    .bars img {
+        margin-top: 30px;
+        display: block;
+        visibility: visible;
+        margin-right: -250px;
     }
-    /* kono ekta kichur jonno, maybe hamburger menu er jonno display block korte hbe. */
 }
+    /* kono ekta kichur jonno, maybe hamburger menu er jonno display block korte hbe. */
 .banner {
     margin-right: 140px;
     margin-left: 140px;    
@@ -656,4 +664,84 @@
         top: -15px;
         left: 10px;
     }  
+}
+
+.meta-footer {
+    padding-top: 30px;
+    background: rgb(1, 172, 253);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+.fo1-h {
+    width: 206.11px;
+    height: 80px;
+    left: 234.6px;
+    top: 2696.32px;
+
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 42.14px;
+    font-weight: 700;
+    line-height: 39.51px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.fo1-chobi {
+    width: 82.9px;
+    height: 81.65px;
+    padding-top: 27px;
+}
+.fo1-p {
+    width: 399.02px;
+    height: 100px;
+    left: 148px;
+    top: 2812px;
+
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+    
+}
+.head {
+    width: 156.36px;
+    height: 30px;
+    left: 719.73px;
+    top: 2695px;
+
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.pa {
+    width: 97.47px;
+    height: 25px;
+    left: 719.73px;
+    top: 2892px;
+
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.fo1 {
+    display: flex;
+}
+.str {
+    display: flex;
+    flex-direction: column;
 }
