@@ -593,6 +593,10 @@
     top: -15px;
     left: 10px;
 }
+.button007 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
 @media screen and (max-width: 576px) {
     .card1 {
         display: none;
@@ -674,6 +678,7 @@
     flex-direction: row;
     padding-left: 140px;
     padding-right: 140px;
+    padding-bottom: 200px;
 }
 .fo1-h {
     width: 206.11px;
@@ -725,11 +730,6 @@
 }
 
 .pa {
-    width: 97.47px;
-    height: 25px;
-    left: 719.73px;
-    top: 2892px;
-
     color: rgb(255, 255, 255);
     font-family: Quicksand;
     font-size: 20px;
@@ -744,4 +744,60 @@
 .str {
     display: flex;
     flex-direction: column;
+}
+.head1 {
+    width: 156.36px;
+    height: 30px;
+    left: 719.73px;
+    top: 2695px;
+
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 50px;
+}
+@media  screen and (max-width: 576px) {
+    .meta-footer {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+    .str {
+        margin-top: 30px;
+        margin-left: -90px;
+    }
+    .fo1 {
+        margin-left: -10px;
+    }
+    .fo2 {
+        margin-top: 30px;
+        margin-left: -90px;
+    }
+    .fo3 {
+        margin-top: 30px;
+        margin-left: -90px;
+    }
+    .pa {
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    }
+    .fo1-p{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: -30px;
+    }
 }
