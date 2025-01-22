@@ -418,9 +418,19 @@
     }
 }
 
-/* .kothin {
+.metasection-1 {
     background: url(../image/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
-} */
+    /* margin-left: 140px;
+    margin-right: 140px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.kothin {
+    /* display: flex;
+    justify-content: space-between; */
+
+}
 .moja {
     color: rgb(0, 0, 0);
     font-family: Quicksand;
@@ -437,6 +447,8 @@
     background: rgb(255, 255, 255);
 }
 .card1 img {
+    width: 540px;
+    height: 337px;
     border-radius: 16px 16px 0px 0px;
 }
 .lekha-ek {
@@ -455,7 +467,7 @@
     line-height: 38.35px;
     letter-spacing: 0%;
     text-align: left;
-    padding: 20px;
+    padding: 10px;
 }
 .para-ek {
     width: 433.06px;
@@ -473,17 +485,10 @@
     line-height: 28.76px;
     letter-spacing: 0%;
     text-align: left;
-    padding: 20px;
+    padding: 10px;
 }
 
 .btn-ek {
-    /* width: 136.46px;
-    height: 18.22px;
-    left: 19.17px;
-    top: 14.38px;
-    display: flex;
-    flex-direction: row;
-    align-items: center; */
     border-radius: 47.93px;
     background: rgb(60, 216, 232);
     border: none;
@@ -498,4 +503,103 @@
     text-transform: capitalize;
     position: relative;
     top: -15px;
+    left: 10px;
+}
+
+
+.choto-card-1 {
+    width: 290.69px;
+    height: 301.61px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+.choto-card-1 img {
+    width: 291px;
+    height: 177px;
+    border-radius: 16px 16px 0px 0px;
+}
+.lekha-dui {
+    width: 198.04px;
+    height: 47.93px;
+    left: 0;
+    top: 4.79px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 15.34px;
+    font-weight: 700;
+    line-height: 28.76px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 10px;
+    margin-bottom: -20px;
+}
+.btn-dui {
+    border-radius: 47.93px;
+    background: rgb(93, 88, 240);
+    border: none;
+
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 15.34px;
+    font-weight: 500;
+    line-height: 28.76px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    position: relative;
+    top: -15px;
+    left: 10px;
+}
+.choto-card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.ccontainer {
+    display: flex;
+    justify-content: space-between;
+    /* margin-right: 140px;
+    margin-left: 140px; */
+}
+.ccc {
+    margin-right: 50px;
+}
+.btn-dui1 {
+    border-radius: 47.93px;
+    background: rgb(149, 178, 38);
+    border: none;  
+    
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 15.34px;
+    font-weight: 500;
+    line-height: 28.76px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    position: relative;
+    top: -15px;
+    left: 10px;
+}
+@media screen and (max-width: 576px) {
+    /* .ccontainer {
+        flex-direction: column;
+        grid-template-columns: 1fr;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;    
+    } */
+    .choto-card-container {
+        grid-template-columns: repeat(2, 1fr);
+        width: 90%;
+    }
+    .ccc {
+        display: none;
+    }
+    
 }
