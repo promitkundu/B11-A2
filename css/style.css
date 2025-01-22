@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 .metasection {
     /* background-image: url(../image/bg.png); */
     background: rgb(247, 247, 247);
@@ -97,6 +98,7 @@
     .btn {
         display: none;   
     }
+    /* kono ekta kichur jonno, maybe hamburger menu er jonno display block korte hbe. */
 }
 .banner {
     margin-right: 140px;
@@ -104,6 +106,12 @@
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
+}
+.o {
+    color: rgb(254, 163, 1);
+}
+.t {
+    color: rgb(1, 172, 253);
 }
 .hero-text {
     font-family: Quicksand;
@@ -168,4 +176,326 @@
         align-items: center;
         justify-content: center;
     }  
+}
+
+.title {
+    /* margin-top: 60px; */
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 57.5px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 140px;
+    margin-left: 140px;
+}
+.cardbox {
+    box-sizing: border-box;
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);  
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cardbox img {
+    width: 30%;
+    padding-top: 40px;
+}
+.problem {
+    width: 211.06px;
+    height: 31.13px;
+    left: 78.57px;
+    top: 221.65px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    color: rgb(32, 32, 32);
+    font-family: Quicksand;
+    font-size: 24.52px;
+    font-weight: 700;
+    line-height: 30.65px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.jhamela {
+    width: 286.26px;
+    height: 74.51px;
+    left: 40.88px;
+    top: 286.26px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    color: rgb(128, 128, 128);
+    font-family: Raleway;
+    font-size: 15.09px;
+    font-weight: 500;
+    line-height: 28.3px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.anotherbutton {
+    color: rgb(100, 200, 255);
+    font-family: Quicksand;
+    font-size: 15.09px;
+    font-weight: 700;
+    line-height: 28.3px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.cardbox1 {
+    box-sizing: border-box;
+    border: 0.94px solid rgb(255, 244, 220);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.cardbox1 img {
+    width: 30%;
+    padding-top: 40px;
+}
+.problem1 {
+    width: 223.27px;
+    height: 31.13px;
+    left: 72.47px;
+    top: 226.37px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    color: rgb(32, 32, 32);
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30.65px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.jhamela1 {
+    width: 286.26px;
+    height: 74.51px;
+    left: 40.88px;
+    top: 290.98px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    color: rgb(128, 128, 128);
+    font-family: Raleway;
+    font-size: 15.09px;
+    font-weight: 500;
+    line-height: 28.3px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.anotherbutton1 {
+    color: rgb(240, 170, 0);
+    font-family: Quicksand;
+    font-size: 15.09px;
+    font-weight: 700;
+    line-height: 28.3px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.cardbox2 {
+    box-sizing: border-box;
+    border: 0.94px solid rgb(242, 232, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cardbox2 img {
+    width: 30%;
+    padding-top: 40px;
+}
+.problem2 {
+    width: 231.6px;
+    height: 31.13px;
+    left: 68.31px;
+    top: 221.65px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    color: rgb(32, 32, 32);
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30.65px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.jhamela2 {
+    width: 286.26px;
+    height: 74.51px;
+    left: 40.88px;
+    top: 286.26px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    color: rgb(128, 128, 128);
+    font-family: Raleway;
+    font-size: 15.09px;
+    font-weight: 500;
+    line-height: 28.3px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.anotherbutton2 {
+    color: rgb(135, 0, 255);
+    font-family: Quicksand;
+    font-size: 15.09px;
+    font-weight: 700;
+    line-height: 28.3px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.two {
+    text-align: center;
+    background-image: url(../image/bg.png);
+    /* background-position: 20px; */
+}
+.icon img {
+    margin-top: 30px;
+    width: 50px;
+    height: 50px;
+
+}
+
+@media screen and (max-width: 576px) {
+    .two {
+        justify-items: center;
+    }
+    .container {
+        flex-direction: column;
+        grid-template-columns: 1fr;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;    
+    }
+    .cardbox {
+        margin-bottom: 20px;
+    }
+    .cardbox1 {
+        margin-bottom: 20px;
+    }
+    .icon img {
+        display: none;
+    }
+}
+
+/* .kothin {
+    background: url(../image/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+} */
+.moja {
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 57.5px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.card1 {
+    width: 540.27px;
+    height: 630.52px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+.card1 img {
+    border-radius: 16px 16px 0px 0px;
+}
+.lekha-ek {
+    width: 402.49px;
+    height: 69.98px;
+    left: 0;
+    top: 2.88px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38.35px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 20px;
+}
+.para-ek {
+    width: 433.06px;
+    height: 75.74px;
+    left: 38.35px;
+    top: 520.26px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    color: rgb(102, 102, 102);
+    font-family: Raleway;
+    font-size: 15.34px;
+    font-weight: 500;
+    line-height: 28.76px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 20px;
+}
+
+.btn-ek {
+    /* width: 136.46px;
+    height: 18.22px;
+    left: 19.17px;
+    top: 14.38px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; */
+    border-radius: 47.93px;
+    background: rgb(60, 216, 232);
+    border: none;
+
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 15.34px;
+    font-weight: 500;
+    line-height: 28.76px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    position: relative;
+    top: -15px;
 }
