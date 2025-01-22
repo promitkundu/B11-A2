@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+.metasection {
+    /* background-image: url(../image/bg.png); */
+    background: rgb(247, 247, 247);
+}
 .header {
     margin-right: 140px;
     margin-left: 140px;
@@ -6,11 +10,19 @@
 .logo {
     display: flex;
     font-family: quicksand;
+    color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    font-size: 25px;
+    font-weight: 70;
+    line-height: 30px;
+    letter-spacing: 0%;
+    
 }
 .logo img {
-    width: 50x;
+    width: 50px;
     height: 50px;
     margin-right: 5px;
+    margin-top: 15px;
 }
 .display-flex {
     display: flex;
@@ -27,15 +39,36 @@
 }
 .c1 {
     color: orange;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    
 }
 .c2 {
     color: skyblue;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
 }
 .c3 {
     color: aquamarine;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
 }
 .c4 {
     color: plum;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
 }
 .navbar {
     justify-content: space-between;
@@ -49,6 +82,13 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 @media screen and (max-width: 576px) {
     .nav-links {
@@ -82,12 +122,50 @@
     letter-spacing: 0%;
     text-align: left;
 }
-.hero-image {
-    width: 2000;
+.hero-image img{
+    width: 400px;
     height: auto;
-    width: 100%;
-    /* width: 234.3px;
-    height: 466.22px;
-    left: 690px;
-    top: 108.78px; */
+}
+.btn2 {
+    font-family: quicksand;
+    background-color: rgb(5, 5, 5);
+    color: white;
+    padding: 10px 20px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+@media screen and (max-width: 576px) {
+    .header {
+        margin-left: 20px;
+    }
+    .banner {
+        flex-direction: column-reverse;
+    }
+    .hero-text {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .hero-text p {
+        text-align: center; 
+    }
+    .hero-image img{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }  
 }
