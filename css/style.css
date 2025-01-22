@@ -586,20 +586,74 @@
     left: 10px;
 }
 @media screen and (max-width: 576px) {
-    /* .ccontainer {
-        flex-direction: column;
-        grid-template-columns: 1fr;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;    
-    } */
-    .choto-card-container {
-        grid-template-columns: repeat(2, 1fr);
-        width: 90%;
-    }
-    .ccc {
+    .card1 {
         display: none;
     }
+    .choto-card-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        width: 100%;
+        margin-right: 50px;
+    }
+    .choto-card-1 {
+        width: 173.09px;
+        height: 179.59px;
+        border-radius: 16px;
+        background: rgb(255, 255, 255);
+    }
+    .choto-card-1 img {
+        width: 173.27px;
+        height: 105.39px;
+        border-radius: 16px 16px 0px 0px;
+    }
+    .lekha-dui {
+        width: 117.92px;
+        height: 28.54px;
+        left: 0;
+        top: 2.85px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     
+        color: rgb(0, 0, 0);
+        font-family: Quicksand;
+        font-size: 9.13px;
+        font-weight: 700;
+        line-height: 17.12px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-top: -10px;
+    }
+    .btn-dui {
+        border-radius: 47.93px;
+        background: rgb(93, 88, 240);
+        border: none;
+    
+        color: rgb(255, 255, 255);
+        font-family: Raleway;
+        font-size: 9.13px;
+        font-weight: 500;
+        line-height: 17.12px;
+        letter-spacing: 0%;
+        text-align: left;
+        text-transform: capitalize;
+        top: -15px;
+        left: 10px;
+    }
+    .btn-dui1 {
+        border-radius: 47.93px;
+        background: rgb(149, 178, 38);
+        border: none;
+    
+        color: rgb(255, 255, 255);
+        font-family: Raleway;
+        font-size: 9.13px;
+        font-weight: 500;
+        line-height: 17.12px;
+        letter-spacing: 0%;
+        text-align: left;
+        text-transform: capitalize;
+        top: -15px;
+        left: 10px;
+    }  
 }
